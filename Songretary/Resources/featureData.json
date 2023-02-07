@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Lesson",
+        "id": 1,
+        "imageName": "book",
+        "description": "Learn a piece"
+        },
+    {
+        "name": "Transcriber",
+        "id": 2,
+        "imageName": "mic",
+        "description": "Let songretary transcribe your music"
+        },
+    {
+        "name": "Tuner",
+        "id": 3,
+        "imageName": "guitar",
+        "description": "Check your pitch"
+        }
+]
