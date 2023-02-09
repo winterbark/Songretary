@@ -7,7 +7,12 @@ struct FeatureList: View {
         NavigationView {
             List(features) { feature in
                 NavigationLink {
-                    FeatureDetail(feature: feature)
+                    if (feature.name == "Lesson") {
+                        Recorder(feature: feature)
+                    }
+                    else {
+                        FeatureDetail(feature: feature)
+                    }
                 } label: {
                     FeatureRow(feature: feature)
                 }
