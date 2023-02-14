@@ -1,5 +1,6 @@
-
-
+import AudioKit
+import AudioKitUI
+import AVFoundation
 import SwiftUI
 
 @main

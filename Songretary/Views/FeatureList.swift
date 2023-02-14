@@ -7,8 +7,8 @@ struct FeatureList: View {
         NavigationView {
             List(features) { feature in
                 NavigationLink {
-                    if (feature.name == "Lesson") {
-                        Recorder(feature: feature)
+                    if (feature.name == "Tuner") {
+                        TunerView()
                     }
                     else {
                         FeatureDetail(feature: feature)

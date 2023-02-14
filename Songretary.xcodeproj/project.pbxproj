@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D006BC229980AA100C95E16 /* SporthAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8D006BC129980AA100C95E16 /* SporthAudioKit */; };
+		8D006BC529980AC400C95E16 /* Tonic in Frameworks */ = {isa = PBXBuildFile; productRef = 8D006BC429980AC400C95E16 /* Tonic */; };
 		8D18521E2989832400C3022C /* SongretaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18521D2989832400C3022C /* SongretaryApp.swift */; };
 		8D1852202989832400C3022C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18521F2989832400C3022C /* ContentView.swift */; };
 		8D1852222989832600C3022C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1852212989832600C3022C /* Assets.xcassets */; };
@@ -19,9 +21,15 @@
 		8D18523F298990E400C3022C /* FeatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D18523E298990E400C3022C /* FeatureRow.swift */; };
 		8D1852412989930200C3022C /* FeatureList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1852402989930200C3022C /* FeatureList.swift */; };
 		8D1852432989941C00C3022C /* FeatureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1852422989941C00C3022C /* FeatureDetail.swift */; };
-		8D2DF0412992F38100317A61 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2DF0402992F38100317A61 /* Recorder.swift */; };
+		8D2DF0412992F38100317A61 /* RView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2DF0402992F38100317A61 /* RView.swift */; };
 		8D2DF0442992F64600317A61 /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8D2DF0432992F64600317A61 /* AudioKit */; };
 		8D5A1F6A2989BBA700E19E42 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5A1F692989BBA700E19E42 /* CircleImage.swift */; };
+		8D9B198B2996FB11001883D8 /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 8D9B198A2996FB11001883D8 /* AudioKitEX */; };
+		8D9B198D2996FCB4001883D8 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B198C2996FCB4001883D8 /* Frequency.swift */; };
+		8DA6B5D52997048400BC3EE3 /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA6B5D42997048400BC3EE3 /* AudioKitUI */; };
+		8DA6B5D7299706FE00BC3EE3 /* Tuner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6B5D6299706FE00BC3EE3 /* Tuner.swift */; };
+		8DA6B5D92997072500BC3EE3 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6B5D82997072500BC3EE3 /* Recorder.swift */; };
+		8DA6B5DC2997074900BC3EE3 /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8DA6B5DB2997074900BC3EE3 /* SoundpipeAudioKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +46,12 @@
 		8D18523E298990E400C3022C /* FeatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRow.swift; sourceTree = "<group>"; };
 		8D1852402989930200C3022C /* FeatureList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureList.swift; sourceTree = "<group>"; };
 		8D1852422989941C00C3022C /* FeatureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureDetail.swift; sourceTree = "<group>"; };
-		8D2DF0402992F38100317A61 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		8D2DF0402992F38100317A61 /* RView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RView.swift; sourceTree = "<group>"; };
 		8D5A1F692989BBA700E19E42 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = BuildingListsAndNavigation/Complete/Landmarks/Views/CircleImage.swift; sourceTree = "<group>"; };
+		8D9B198C2996FCB4001883D8 /* Frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
+		8DA6B5D6299706FE00BC3EE3 /* Tuner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tuner.swift; sourceTree = "<group>"; };
+		8DA6B5D82997072500BC3EE3 /* Recorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		8DA6B5DF29970DD600BC3EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +59,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D006BC529980AC400C95E16 /* Tonic in Frameworks */,
+				8D006BC229980AA100C95E16 /* SporthAudioKit in Frameworks */,
 				8D2DF0442992F64600317A61 /* AudioKit in Frameworks */,
+				8DA6B5D52997048400BC3EE3 /* AudioKitUI in Frameworks */,
+				8DA6B5DC2997074900BC3EE3 /* SoundpipeAudioKit in Frameworks */,
+				8D9B198B2996FB11001883D8 /* AudioKitEX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 			children = (
 				8D18521C2989832400C3022C /* Songretary */,
 				8D18521B2989832400C3022C /* Products */,
+				8DA6B5D32997048400BC3EE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +91,7 @@
 		8D18521C2989832400C3022C /* Songretary */ = {
 			isa = PBXGroup;
 			children = (
+				8DA6B5DF29970DD600BC3EE3 /* Info.plist */,
 				8D18523A29898F9800C3022C /* Views */,
 				8D18523B29898FA000C3022C /* Model */,
 				8D18523D29898FBF00C3022C /* Resources */,
@@ -101,7 +120,7 @@
 				8D18523E298990E400C3022C /* FeatureRow.swift */,
 				8D1852402989930200C3022C /* FeatureList.swift */,
 				8D1852422989941C00C3022C /* FeatureDetail.swift */,
-				8D2DF0402992F38100317A61 /* Recorder.swift */,
+				8D2DF0402992F38100317A61 /* RView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,7 +129,10 @@
 			isa = PBXGroup;
 			children = (
 				8D18523629898B4500C3022C /* Feature.swift */,
+				8DA6B5D82997072500BC3EE3 /* Recorder.swift */,
+				8DA6B5D6299706FE00BC3EE3 /* Tuner.swift */,
 				8D18523829898DFB00C3022C /* ModelData.swift */,
+				8D9B198C2996FCB4001883D8 /* Frequency.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,6 +143,13 @@
 				8D18523429898B2F00C3022C /* featureData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		8DA6B5D32997048400BC3EE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +170,11 @@
 			name = Songretary;
 			packageProductDependencies = (
 				8D2DF0432992F64600317A61 /* AudioKit */,
+				8D9B198A2996FB11001883D8 /* AudioKitEX */,
+				8DA6B5D42997048400BC3EE3 /* AudioKitUI */,
+				8DA6B5DB2997074900BC3EE3 /* SoundpipeAudioKit */,
+				8D006BC129980AA100C95E16 /* SporthAudioKit */,
+				8D006BC429980AC400C95E16 /* Tonic */,
 			);
 			productName = Landmarks;
 			productReference = 8D18521A2989832400C3022C /* Songretary.app */;
@@ -173,6 +207,10 @@
 			packageReferences = (
 				8D2DF0422992F64600317A61 /* XCRemoteSwiftPackageReference "AudioKit" */,
 				8D2DF0452992F66600317A61 /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+				8D9B19892996FB11001883D8 /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				8DA6B5DA2997074900BC3EE3 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+				8D006BC029980AA100C95E16 /* XCRemoteSwiftPackageReference "SporthAudioKit" */,
+				8D006BC329980AC400C95E16 /* XCRemoteSwiftPackageReference "Tonic" */,
 			);
 			productRefGroup = 8D18521B2989832400C3022C /* Products */;
 			projectDirPath = "";
@@ -204,13 +242,16 @@
 				8D18523729898B4500C3022C /* Feature.swift in Sources */,
 				8D1852272989832600C3022C /* Persistence.swift in Sources */,
 				8D1852202989832400C3022C /* ContentView.swift in Sources */,
-				8D2DF0412992F38100317A61 /* Recorder.swift in Sources */,
+				8DA6B5D7299706FE00BC3EE3 /* Tuner.swift in Sources */,
+				8D2DF0412992F38100317A61 /* RView.swift in Sources */,
+				8DA6B5D92997072500BC3EE3 /* Recorder.swift in Sources */,
 				8D18521E2989832400C3022C /* SongretaryApp.swift in Sources */,
 				8D18523929898DFB00C3022C /* ModelData.swift in Sources */,
 				8D18522A2989832600C3022C /* Songretary.xcdatamodeld in Sources */,
 				8D18523F298990E400C3022C /* FeatureRow.swift in Sources */,
 				8D5A1F6A2989BBA700E19E42 /* CircleImage.swift in Sources */,
 				8D1852432989941C00C3022C /* FeatureDetail.swift in Sources */,
+				8D9B198D2996FCB4001883D8 /* Frequency.swift in Sources */,
 				8D1852412989930200C3022C /* FeatureList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,17 +384,23 @@
 				DEVELOPMENT_TEAM = 4XM5R5KN5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Songretary/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to demonstrate processing input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = DS.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.Songretary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -372,17 +419,23 @@
 				DEVELOPMENT_TEAM = 4XM5R5KN5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Songretary/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We use the microphone to demonstrate processing input.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = DS.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = DS.Songretary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -414,6 +467,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8D006BC029980AA100C95E16 /* XCRemoteSwiftPackageReference "SporthAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SporthAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8D006BC329980AC400C95E16 /* XCRemoteSwiftPackageReference "Tonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/Tonic.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 		8D2DF0422992F64600317A61 /* XCRemoteSwiftPackageReference "AudioKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
@@ -430,13 +499,54 @@
 				minimumVersion = 0.3.4;
 			};
 		};
+		8D9B19892996FB11001883D8 /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		8DA6B5DA2997074900BC3EE3 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8D006BC129980AA100C95E16 /* SporthAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D006BC029980AA100C95E16 /* XCRemoteSwiftPackageReference "SporthAudioKit" */;
+			productName = SporthAudioKit;
+		};
+		8D006BC429980AC400C95E16 /* Tonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D006BC329980AC400C95E16 /* XCRemoteSwiftPackageReference "Tonic" */;
+			productName = Tonic;
+		};
 		8D2DF0432992F64600317A61 /* AudioKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8D2DF0422992F64600317A61 /* XCRemoteSwiftPackageReference "AudioKit" */;
 			productName = AudioKit;
+		};
+		8D9B198A2996FB11001883D8 /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D9B19892996FB11001883D8 /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		8DA6B5D42997048400BC3EE3 /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8D2DF0452992F66600317A61 /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+		8DA6B5DB2997074900BC3EE3 /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8DA6B5DA2997074900BC3EE3 /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 

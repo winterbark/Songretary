@@ -23,6 +23,7 @@ struct featureRow_Previews: PreviewProvider {
             FeatureRow(feature: features[0])
             FeatureRow(feature: features[1])
             FeatureRow(feature: features[2])
+            FeatureRow(feature: features[3])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }
